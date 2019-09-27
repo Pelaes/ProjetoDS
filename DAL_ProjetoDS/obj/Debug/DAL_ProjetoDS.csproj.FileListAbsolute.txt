@@ -1,0 +1,17 @@
+C:\Users\mathe\DS-2 (2019)\DS(C#)-II\Windows form\Projeto_DS\DAL_ProjetoDS\bin\Debug\DAL_ProjetoDS.dll
+C:\Users\mathe\DS-2 (2019)\DS(C#)-II\Windows form\Projeto_DS\DAL_ProjetoDS\bin\Debug\DAL_ProjetoDS.pdb
+C:\Users\mathe\DS-2 (2019)\DS(C#)-II\Windows form\Projeto_DS\DAL_ProjetoDS\bin\Debug\DTO_ProjetoDS.dll
+C:\Users\mathe\DS-2 (2019)\DS(C#)-II\Windows form\Projeto_DS\DAL_ProjetoDS\bin\Debug\DTO_ProjetoDS.pdb
+C:\Users\mathe\DS-2 (2019)\DS(C#)-II\Windows form\Projeto_DS\DAL_ProjetoDS\obj\Debug\DAL_ProjetoDS.csprojAssemblyReference.cache
+C:\Users\mathe\DS-2 (2019)\DS(C#)-II\Windows form\Projeto_DS\DAL_ProjetoDS\obj\Debug\DAL_ProjetoDS.csproj.CoreCompileInputs.cache
+C:\Users\mathe\DS-2 (2019)\DS(C#)-II\Windows form\Projeto_DS\DAL_ProjetoDS\obj\Debug\DAL_ProjetoDS.csproj.CopyComplete
+C:\Users\mathe\DS-2 (2019)\DS(C#)-II\Windows form\Projeto_DS\DAL_ProjetoDS\obj\Debug\DAL_ProjetoDS.dll
+C:\Users\mathe\DS-2 (2019)\DS(C#)-II\Windows form\Projeto_DS\DAL_ProjetoDS\obj\Debug\DAL_ProjetoDS.pdb
+C:\Users\Marcelo\Desktop\Projeto_DS\DAL_ProjetoDS\bin\Debug\DAL_ProjetoDS.dll
+C:\Users\Marcelo\Desktop\Projeto_DS\DAL_ProjetoDS\bin\Debug\DAL_ProjetoDS.pdb
+C:\Users\Marcelo\Desktop\Projeto_DS\DAL_ProjetoDS\bin\Debug\DTO_ProjetoDS.dll
+C:\Users\Marcelo\Desktop\Projeto_DS\DAL_ProjetoDS\bin\Debug\DTO_ProjetoDS.pdb
+C:\Users\Marcelo\Desktop\Projeto_DS\DAL_ProjetoDS\obj\Debug\DAL_ProjetoDS.csprojResolveAssemblyReference.cache
+C:\Users\Marcelo\Desktop\Projeto_DS\DAL_ProjetoDS\obj\Debug\DAL_ProjetoDS.csproj.CoreCompileInputs.cache
+C:\Users\Marcelo\Desktop\Projeto_DS\DAL_ProjetoDS\obj\Debug\DAL_ProjetoDS.dll
+C:\Users\Marcelo\Desktop\Projeto_DS\DAL_ProjetoDS\obj\Debug\DAL_ProjetoDS.pdb

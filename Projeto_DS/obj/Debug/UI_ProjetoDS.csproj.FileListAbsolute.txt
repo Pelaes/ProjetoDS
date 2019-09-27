@@ -1,0 +1,34 @@
+C:\Users\mathe\DS-2 (2019)\DS(C#)-II\Windows form\Projeto_DS\Projeto_DS\bin\Debug\Projeto_DS.exe.config
+C:\Users\mathe\DS-2 (2019)\DS(C#)-II\Windows form\Projeto_DS\Projeto_DS\bin\Debug\Projeto_DS.exe
+C:\Users\mathe\DS-2 (2019)\DS(C#)-II\Windows form\Projeto_DS\Projeto_DS\bin\Debug\Projeto_DS.pdb
+C:\Users\mathe\DS-2 (2019)\DS(C#)-II\Windows form\Projeto_DS\Projeto_DS\bin\Debug\BBL_ProjetoDS.dll
+C:\Users\mathe\DS-2 (2019)\DS(C#)-II\Windows form\Projeto_DS\Projeto_DS\bin\Debug\DTO_ProjetoDS.dll
+C:\Users\mathe\DS-2 (2019)\DS(C#)-II\Windows form\Projeto_DS\Projeto_DS\bin\Debug\BBL_ProjetoDS.pdb
+C:\Users\mathe\DS-2 (2019)\DS(C#)-II\Windows form\Projeto_DS\Projeto_DS\bin\Debug\DTO_ProjetoDS.pdb
+C:\Users\mathe\DS-2 (2019)\DS(C#)-II\Windows form\Projeto_DS\Projeto_DS\obj\Debug\UI_ProjetoDS.csprojAssemblyReference.cache
+C:\Users\mathe\DS-2 (2019)\DS(C#)-II\Windows form\Projeto_DS\Projeto_DS\obj\Debug\UI_ProjetoDS.Form1.resources
+C:\Users\mathe\DS-2 (2019)\DS(C#)-II\Windows form\Projeto_DS\Projeto_DS\obj\Debug\Projeto_DS.Properties.Resources.resources
+C:\Users\mathe\DS-2 (2019)\DS(C#)-II\Windows form\Projeto_DS\Projeto_DS\obj\Debug\UI_ProjetoDS.csproj.GenerateResource.cache
+C:\Users\mathe\DS-2 (2019)\DS(C#)-II\Windows form\Projeto_DS\Projeto_DS\obj\Debug\UI_ProjetoDS.csproj.CoreCompileInputs.cache
+C:\Users\mathe\DS-2 (2019)\DS(C#)-II\Windows form\Projeto_DS\Projeto_DS\obj\Debug\UI_ProjetoDS.csproj.CopyComplete
+C:\Users\mathe\DS-2 (2019)\DS(C#)-II\Windows form\Projeto_DS\Projeto_DS\obj\Debug\Projeto_DS.exe
+C:\Users\mathe\DS-2 (2019)\DS(C#)-II\Windows form\Projeto_DS\Projeto_DS\obj\Debug\Projeto_DS.pdb
+C:\Users\mathe\DS-2 (2019)\DS(C#)-II\Windows form\Projeto_DS\Projeto_DS\bin\Debug\DAL_ProjetoDS.dll
+C:\Users\mathe\DS-2 (2019)\DS(C#)-II\Windows form\Projeto_DS\Projeto_DS\bin\Debug\DAL_ProjetoDS.pdb
+C:\Users\Marcelo\Desktop\Projeto_DS\Projeto_DS\bin\Debug\Projeto_DS.exe.config
+C:\Users\Marcelo\Desktop\Projeto_DS\Projeto_DS\bin\Debug\Projeto_DS.exe
+C:\Users\Marcelo\Desktop\Projeto_DS\Projeto_DS\bin\Debug\Projeto_DS.pdb
+C:\Users\Marcelo\Desktop\Projeto_DS\Projeto_DS\bin\Debug\BBL_ProjetoDS.dll
+C:\Users\Marcelo\Desktop\Projeto_DS\Projeto_DS\bin\Debug\DTO_ProjetoDS.dll
+C:\Users\Marcelo\Desktop\Projeto_DS\Projeto_DS\bin\Debug\BBL_ProjetoDS.pdb
+C:\Users\Marcelo\Desktop\Projeto_DS\Projeto_DS\bin\Debug\DTO_ProjetoDS.pdb
+C:\Users\Marcelo\Desktop\Projeto_DS\Projeto_DS\obj\Debug\UI_ProjetoDS.csprojResolveAssemblyReference.cache
+C:\Users\Marcelo\Desktop\Projeto_DS\Projeto_DS\obj\Debug\UI_ProjetoDS.Form1.resources
+C:\Users\Marcelo\Desktop\Projeto_DS\Projeto_DS\obj\Debug\UI_ProjetoDS.Home.resources
+C:\Users\Marcelo\Desktop\Projeto_DS\Projeto_DS\obj\Debug\Projeto_DS.Properties.Resources.resources
+C:\Users\Marcelo\Desktop\Projeto_DS\Projeto_DS\obj\Debug\UI_ProjetoDS.csproj.GenerateResource.Cache
+C:\Users\Marcelo\Desktop\Projeto_DS\Projeto_DS\obj\Debug\UI_ProjetoDS.csproj.CoreCompileInputs.cache
+C:\Users\Marcelo\Desktop\Projeto_DS\Projeto_DS\obj\Debug\Projeto_DS.exe
+C:\Users\Marcelo\Desktop\Projeto_DS\Projeto_DS\obj\Debug\Projeto_DS.pdb
+C:\Users\Marcelo\Desktop\Projeto_DS\Projeto_DS\bin\Debug\DAL_ProjetoDS.dll
+C:\Users\Marcelo\Desktop\Projeto_DS\Projeto_DS\bin\Debug\DAL_ProjetoDS.pdb

@@ -1,0 +1,10 @@
+C:\Users\Marcelo\Desktop\Projeto_DS\BBL_ProjetoDS\bin\Debug\BBL_ProjetoDS.dll
+C:\Users\Marcelo\Desktop\Projeto_DS\BBL_ProjetoDS\bin\Debug\BBL_ProjetoDS.pdb
+C:\Users\Marcelo\Desktop\Projeto_DS\BBL_ProjetoDS\bin\Debug\DAL_ProjetoDS.dll
+C:\Users\Marcelo\Desktop\Projeto_DS\BBL_ProjetoDS\bin\Debug\DTO_ProjetoDS.dll
+C:\Users\Marcelo\Desktop\Projeto_DS\BBL_ProjetoDS\bin\Debug\DAL_ProjetoDS.pdb
+C:\Users\Marcelo\Desktop\Projeto_DS\BBL_ProjetoDS\bin\Debug\DTO_ProjetoDS.pdb
+C:\Users\Marcelo\Desktop\Projeto_DS\BBL_ProjetoDS\obj\Debug\BLL_ProjetoDS.csprojResolveAssemblyReference.cache
+C:\Users\Marcelo\Desktop\Projeto_DS\BBL_ProjetoDS\obj\Debug\BLL_ProjetoDS.csproj.CoreCompileInputs.cache
+C:\Users\Marcelo\Desktop\Projeto_DS\BBL_ProjetoDS\obj\Debug\BBL_ProjetoDS.dll
+C:\Users\Marcelo\Desktop\Projeto_DS\BBL_ProjetoDS\obj\Debug\BBL_ProjetoDS.pdb
