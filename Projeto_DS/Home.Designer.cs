@@ -117,7 +117,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 33);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(961, 492);
+            this.tabPage1.Size = new System.Drawing.Size(961, 531);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Página Inicial";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -127,7 +127,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 33);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(961, 492);
+            this.tabPage2.Size = new System.Drawing.Size(961, 531);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Vendas";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -137,7 +137,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 33);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(961, 492);
+            this.tabPage3.Size = new System.Drawing.Size(961, 531);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Clientes";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -147,7 +147,7 @@
             this.tabPage4.Location = new System.Drawing.Point(4, 33);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(961, 492);
+            this.tabPage4.Size = new System.Drawing.Size(961, 531);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Produtos";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -219,6 +219,7 @@
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(173, 33);
             this.maskedTextBox1.TabIndex = 40;
+            this.maskedTextBox1.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             // 
             // label6
             // 
@@ -574,7 +575,7 @@
             this.tabPage6.Location = new System.Drawing.Point(4, 33);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(961, 492);
+            this.tabPage6.Size = new System.Drawing.Size(961, 531);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Fornecedores";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -584,7 +585,7 @@
             this.tabPage7.Location = new System.Drawing.Point(4, 33);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(961, 492);
+            this.tabPage7.Size = new System.Drawing.Size(961, 531);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "Relatórios";
             this.tabPage7.UseVisualStyleBackColor = true;

@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DTO_ProjetoDS;
+using BLL_ProjetoDS;
 
 namespace UI_ProjetoDS
 {
@@ -82,7 +83,48 @@ namespace UI_ProjetoDS
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            try
+            {
+                PessoaDTO obj = new PessoaDTO();
+                obj.Nome = textBox1.Text;
+                obj.CPF = maskedTextBox1.Text;
+                obj.RG = textBox3.Text;
+                obj.DataNascimento = maskedTextBox2.Text;
+                obj.TelFixo = maskedTextBox4.Text;
+                obj.TelCelular = maskedTextBox5.Text;
+                obj.Cargo = comboBox1.Text;
+                obj.Endereco = textBox2.Text;
+                obj.Numero = textBox5.Text;
+                obj.Bairro = textBox4.Text;
+                obj.Cidade = textBox6.Text;
+                obj.Estado = comboBox2.Text;
+                obj.CEP = maskedTextBox3.Text;
+                if (radioButton1.Checked == true)
+                {
+                    obj.Sexo = radioButton1.Text;
+                }
+                if (radioButton2.Checked == true)
+                {
+                    obj.Sexo = radioButton2.Text;
+                }
+                if (radioButton3.Checked == true)
+                {
+                    obj.Sexo = radioButton3.Text;
+                }
+                if (radioButton4.Checked == true)
+                {
+                    obj.Ativo = radioButton4.Text;
+                }
+                if (radioButton5.Checked == true)
+                {
+                    obj.Ativo = radioButton5.Text;
+                }
+                FuncionarioBLL.CadFuncionario(obj);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }
