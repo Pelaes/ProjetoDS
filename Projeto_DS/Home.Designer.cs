@@ -201,6 +201,7 @@
             this.maskedTextBox3.Name = "maskedTextBox3";
             this.maskedTextBox3.Size = new System.Drawing.Size(159, 33);
             this.maskedTextBox3.TabIndex = 42;
+            this.maskedTextBox3.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             // 
             // label17
             // 
@@ -460,6 +461,7 @@
             this.maskedTextBox5.Name = "maskedTextBox5";
             this.maskedTextBox5.Size = new System.Drawing.Size(192, 33);
             this.maskedTextBox5.TabIndex = 19;
+            this.maskedTextBox5.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             // 
             // label9
             // 
@@ -479,6 +481,7 @@
             this.maskedTextBox4.Name = "maskedTextBox4";
             this.maskedTextBox4.Size = new System.Drawing.Size(173, 33);
             this.maskedTextBox4.TabIndex = 16;
+            this.maskedTextBox4.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             // 
             // label10
             // 
