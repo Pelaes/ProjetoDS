@@ -119,12 +119,54 @@ namespace UI_ProjetoDS
                 {
                     obj.Ativo = radioButton5.Text;
                 }
-                FuncionarioBLL.CadFuncionario(obj);
+                string mensagem = FuncionarioBLL.CadFuncionario(obj);
+                MessageBox.Show(mensagem, "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                textBox1.Clear();
+                maskedTextBox1.Clear();
+                textBox3.Clear();
+                maskedTextBox2.Clear();
+                maskedTextBox4.Clear();
+                maskedTextBox5.Clear();
+                comboBox1.SelectedIndex = -1;
+                textBox2.Clear();
+                textBox4.Clear();
+                textBox5.Clear();
+                textBox6.Clear();
+                comboBox2.SelectedIndex = -1;
+                maskedTextBox3.Clear();
+                radioButton1.Checked = false;
+                radioButton2.Checked = false;
+                radioButton3.Checked = false;
+                radioButton4.Checked = false;
+                radioButton5.Checked = false;
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            maskedTextBox1.Clear();
+            textBox3.Clear();
+            maskedTextBox2.Clear();
+            maskedTextBox4.Clear();
+            maskedTextBox5.Clear();
+            comboBox1.SelectedIndex = -1;
+            textBox2.Clear();
+            textBox4.Clear();
+            textBox5.Clear();
+            textBox6.Clear();
+            comboBox2.SelectedIndex = -1;
+            maskedTextBox3.Clear();
+            radioButton1.Checked = false;
+            radioButton2.Checked = false;
+            radioButton3.Checked = false;
+            radioButton4.Checked = false;
+            radioButton5.Checked = false;
         }
     }
 }

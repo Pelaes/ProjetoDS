@@ -15,12 +15,22 @@ namespace DAL_ProjetoDS
         {
             try
             {
-                string script = "INSERT INTO tb_funcionario (nome, rg, cpf, ctps, endereco, tel_fixo, tel_celular, tipo, foto, usuario, senha) " +
-                                "VALUES (@nome, @rg, @cpf, @ctps, @end, @fixo, @cel, @tipo, @foto, @user, @ pass)";
+                string script = "INSERT INTO Pessoa (nome, cargo, dtNascimento, sexo, telFixo, telCelular, ativo, RG, CPF, email, userName, senha) " +
+                                "VALUES (@nome, @cargo, @dtNascimento, @sexo, @telFixo, @telCelular, @ativo, @RG, @CPF, @email, @userName, @senha)";
                 SqlCommand cm = new SqlCommand(script, Conexao.Conectar());
 
                 cm.Parameters.AddWithValue("@nome", obj.Nome);
-                cm.Parameters.AddWithValue("@nome", obj.RG);
+                cm.Parameters.AddWithValue("@cargo", obj.Cargo);
+                cm.Parameters.AddWithValue("@dtNascimento", obj.DataNascimento);
+                cm.Parameters.AddWithValue("@sexo", obj.Sexo);
+                cm.Parameters.AddWithValue("@telFixo", obj.TelFixo);
+                cm.Parameters.AddWithValue("@telCelular", obj.TelCelular);
+                cm.Parameters.AddWithValue("@ativo", obj.Ativo);
+                cm.Parameters.AddWithValue("@RG", obj.RG);
+                cm.Parameters.AddWithValue("@CPF", obj.CPF);
+                cm.Parameters.AddWithValue("@email", obj.Email);
+                cm.Parameters.AddWithValue("@userName", obj.UserName);
+                cm.Parameters.AddWithValue("@senha", obj.Senha);
 
                 cm.ExecuteNonQuery();
 

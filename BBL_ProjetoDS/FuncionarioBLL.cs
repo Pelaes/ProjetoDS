@@ -104,7 +104,10 @@ namespace BLL_ProjetoDS
             {
                 throw new Exception("Selecione o status do funcionário!");
             }
-            return "abc";
+            obj.Email = "";
+            obj.Senha = "";
+            obj.UserName = "";
+            return FuncionarioDAL.CadFuncionario(obj);
         }
     }
 }
