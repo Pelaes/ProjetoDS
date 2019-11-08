@@ -9,3 +9,4 @@ C:\Users\Marcelo\Desktop\Projeto_DS\DTO_ProjetoDS\bin\Debug\DTO_ProjetoDS.pdb
 C:\Users\Marcelo\Desktop\Projeto_DS\DTO_ProjetoDS\obj\Debug\DTO_ProjetoDS.csproj.CoreCompileInputs.cache
 C:\Users\Marcelo\Desktop\Projeto_DS\DTO_ProjetoDS\obj\Debug\DTO_ProjetoDS.dll
 C:\Users\Marcelo\Desktop\Projeto_DS\DTO_ProjetoDS\obj\Debug\DTO_ProjetoDS.pdb
+C:\Users\Marcelo\Desktop\Projeto_DS\DTO_ProjetoDS\obj\Debug\DTO_ProjetoDS.csprojResolveAssemblyReference.cache

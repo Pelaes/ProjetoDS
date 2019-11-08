@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="FuncionarioBLL.cs" />
     <Compile Include="LoginBLL.cs" />
+    <Compile Include="ProdutoBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

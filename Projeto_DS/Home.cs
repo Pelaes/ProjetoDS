@@ -74,6 +74,7 @@ namespace UI_ProjetoDS
                 this.tabControl1.TabPages.Remove(tabPage6);
                 this.tabControl1.TabPages.Remove(tabPage7);
             }
+            button5.Enabled = false;
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
@@ -167,6 +168,75 @@ namespace UI_ProjetoDS
             radioButton3.Checked = false;
             radioButton4.Checked = false;
             radioButton5.Checked = false;
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string codBarras = textBox14.Text;
+                ProdutoDTO obj = new ProdutoDTO();
+                obj = ProdutoBLL.BuscarProduto(codBarras);
+                textBox14.Text = obj.CodBarras;
+                textBox15.Text = obj.NomeProd;
+                textBox8.Text = obj.DescProd;
+                textBox16.Text = obj.PrecoProd;
+                textBox17.Text = obj.EstoqueProd;
+                textBox18.Text = obj.UnidadeProd;
+                comboBox4.Text = obj.TipoUnidProd;
+                if(obj.AtivoProd.ToLower() == "ativo")
+                {
+                    radioButton9.Checked = true;
+                }
+                if (obj.AtivoProd.ToLower() == "inativo")
+                {
+                    radioButton8.Checked = true;
+                }
+                button5.Enabled = true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btnCadastro_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                ProdutoDTO obj = new ProdutoDTO();
+                obj.CodBarras = textBox9.Text;
+                obj.NomeProd = textBox10.Text;
+                obj.DescProd = textBox7.Text;
+                obj.PrecoProd = textBox11.Text;
+                obj.EstoqueProd = textBox12.Text;
+                obj.UnidadeProd = textBox13.Text;
+                obj.TipoUnidProd = comboBox3.Text;
+                if (radioButton6.Checked == true)
+                {
+                    obj.AtivoProd = radioButton6.Text;
+                }
+                if (radioButton7.Checked == true)
+                {
+                    obj.AtivoProd = radioButton7.Text;
+                }
+                string mensagem = ProdutoBLL.CadProduto(obj);
+                MessageBox.Show(mensagem, "Mensagem", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                textBox9.Clear();
+                textBox10.Clear();
+                textBox7.Clear();
+                textBox11.Clear();
+                textBox12.Clear();
+                textBox13.Clear();
+                comboBox3.SelectedIndex = -1;
+                radioButton6.Checked = false;
+                radioButton7.Checked = false;
+                textBox9.Focus();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

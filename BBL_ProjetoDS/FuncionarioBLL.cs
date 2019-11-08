@@ -45,13 +45,13 @@ namespace BLL_ProjetoDS
                 throw new Exception("Digite uma data no formato dd/mm/aaaa!");
             }
             DateTime dataAtual = DateTime.Today;
-            if(Convert.ToDateTime(obj.DataNascimento) > dataAtual)
+            if (Convert.ToDateTime(obj.DataNascimento) > dataAtual)
             {
                 throw new Exception("Data de nascimento deve ser menor que data atual!");
             }
-            if(obj.TelFixo != "")
+            if (obj.TelFixo != "")
             {
-                if(obj.TelFixo.Length < 10)
+                if (obj.TelFixo.Length < 10)
                 {
                     throw new Exception("Numero de telefone fixo inválido!");
                 }
