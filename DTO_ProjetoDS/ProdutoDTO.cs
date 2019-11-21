@@ -17,5 +17,6 @@ namespace DTO_ProjetoDS
         public string UnidadeProd { get; set; }
         public string TipoUnidProd { get; set; }
         public string AtivoProd { get; set; }
+        public string AcaoProd { get; set; }
     }
 }

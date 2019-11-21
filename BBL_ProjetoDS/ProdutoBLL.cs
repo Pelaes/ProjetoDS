@@ -28,6 +28,14 @@ namespace BLL_ProjetoDS
             {
                 throw new Exception("Código de barras deve ter 13 digitos!");
             }
+            if (obj.AcaoProd == "cadastro")
+            {
+                bool retorno = ProdutoDAL.ValidarCodBarras(obj.CodBarras);
+                if (retorno == true)
+                {
+                    throw new Exception("Código de barras já esta em uso!");
+                }
+            }
             if (string.IsNullOrWhiteSpace(obj.NomeProd))
             {
                 throw new Exception("Campo nome vazio");
@@ -60,12 +68,38 @@ namespace BLL_ProjetoDS
             {
                 throw new Exception("Estoque deve ser numérico!");
             }
+            if (string.IsNullOrWhiteSpace(obj.UnidadeProd))
+            {
+                throw new Exception("Campo unidade vazio");
+            }
+            try
+            {
+                Convert.ToInt32(obj.UnidadeProd);
+            }
+            catch
+            {
+                throw new Exception("Estoque deve ser numérico!");
+            }
+            if (string.IsNullOrWhiteSpace(obj.TipoUnidProd))
+            {
+                throw new Exception("Campo tipo vazio");
+            }
             if (string.IsNullOrWhiteSpace(obj.AtivoProd))
             {
                 throw new Exception("Selecione se o produto está ativo ou inativo!");
             }
 
-            return ProdutoDAL.CadProduto(obj);
+            switch (obj.AcaoProd)
+            {
+                case "cadastro":
+                    return ProdutoDAL.CadProduto(obj);
+                    //break;
+                case "alteracao":
+                    return ProdutoDAL.AlterarProduto(obj);
+                default:
+                    throw new Exception("algo errado aconteceu!");
+            }
+            
         }
 
         public static ProdutoDTO BuscarProduto (string codBarras)

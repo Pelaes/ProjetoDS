@@ -177,6 +177,7 @@ namespace UI_ProjetoDS
                 string codBarras = textBox14.Text;
                 ProdutoDTO obj = new ProdutoDTO();
                 obj = ProdutoBLL.BuscarProduto(codBarras);
+                textBox19.Text = obj.IdProd.ToString();
                 textBox14.Text = obj.CodBarras;
                 textBox15.Text = obj.NomeProd;
                 textBox8.Text = obj.DescProd;
@@ -220,6 +221,7 @@ namespace UI_ProjetoDS
                 {
                     obj.AtivoProd = radioButton7.Text;
                 }
+                obj.AcaoProd = "cadastro";
                 string mensagem = ProdutoBLL.CadProduto(obj);
                 MessageBox.Show(mensagem, "Mensagem", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 textBox9.Clear();
@@ -237,6 +239,51 @@ namespace UI_ProjetoDS
             {
                 MessageBox.Show(ex.Message, "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                ProdutoDTO obj = new ProdutoDTO();
+                obj.IdProd = int.Parse(textBox19.Text);
+                //MessageBox.Show(obj.IdProd.ToString());
+                obj.CodBarras = textBox14.Text;
+                obj.NomeProd = textBox15.Text;
+                obj.DescProd = textBox8.Text;
+                obj.PrecoProd = textBox16.Text;
+                obj.EstoqueProd = textBox17.Text;
+                obj.UnidadeProd = textBox18.Text;
+                obj.TipoUnidProd = comboBox4.Text;
+                if (radioButton9.Checked == true)
+                {
+                    obj.AtivoProd = radioButton9.Text;
+                }
+                if (radioButton8.Checked == true)
+                {
+                    obj.AtivoProd = radioButton8.Text;
+                }
+                obj.AcaoProd = "alteracao";
+                string mensagem = ProdutoBLL.CadProduto(obj);
+                MessageBox.Show(mensagem, "Mensagem", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                textBox14.Clear();
+                textBox19.Clear();
+                textBox15.Clear();
+                textBox8.Clear();
+                textBox16.Clear();
+                textBox17.Clear();
+                textBox18.Clear();
+                comboBox4.SelectedIndex = -1;
+                radioButton8.Checked = false;
+                radioButton9.Checked = false;
+                textBox14.Focus();
+                button5.Enabled = false;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
         }
     }
 }

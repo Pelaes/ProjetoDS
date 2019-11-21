@@ -35,11 +35,15 @@
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label28 = new System.Windows.Forms.Label();
             this.radioButton7 = new System.Windows.Forms.RadioButton();
             this.radioButton6 = new System.Windows.Forms.RadioButton();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
             this.radioButton8 = new System.Windows.Forms.RadioButton();
+            this.label29 = new System.Windows.Forms.Label();
             this.radioButton9 = new System.Windows.Forms.RadioButton();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -109,10 +113,7 @@
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label28 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.label29 = new System.Windows.Forms.Label();
+            this.textBox19 = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -212,6 +213,25 @@
             this.tabPage4.Text = "Produtos";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
+            // textBox7
+            // 
+            this.textBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox7.Location = new System.Drawing.Point(6, 235);
+            this.textBox7.Multiline = true;
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(542, 92);
+            this.textBox7.TabIndex = 56;
+            // 
+            // label28
+            // 
+            this.label28.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(2, 198);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(113, 24);
+            this.label28.TabIndex = 55;
+            this.label28.Text = "Descrição";
+            // 
             // radioButton7
             // 
             this.radioButton7.Anchor = System.Windows.Forms.AnchorStyles.Left;
@@ -254,6 +274,7 @@
             // 
             this.groupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox3.Controls.Add(this.textBox19);
             this.groupBox3.Controls.Add(this.textBox8);
             this.groupBox3.Controls.Add(this.radioButton8);
             this.groupBox3.Controls.Add(this.label29);
@@ -278,6 +299,15 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Alterar Itens";
             // 
+            // textBox8
+            // 
+            this.textBox8.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.textBox8.Location = new System.Drawing.Point(10, 220);
+            this.textBox8.Multiline = true;
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(372, 92);
+            this.textBox8.TabIndex = 58;
+            // 
             // radioButton8
             // 
             this.radioButton8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
@@ -288,6 +318,16 @@
             this.radioButton8.TabIndex = 56;
             this.radioButton8.Text = "Inativo";
             this.radioButton8.UseVisualStyleBackColor = true;
+            // 
+            // label29
+            // 
+            this.label29.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(6, 183);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(113, 24);
+            this.label29.TabIndex = 57;
+            this.label29.Text = "Descrição";
             // 
             // radioButton9
             // 
@@ -416,6 +456,7 @@
             this.button5.TabIndex = 25;
             this.button5.Text = "Alterar";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label20
             // 
@@ -1006,43 +1047,13 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Nome";
             // 
-            // textBox7
+            // textBox19
             // 
-            this.textBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox7.Location = new System.Drawing.Point(6, 235);
-            this.textBox7.Multiline = true;
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(542, 92);
-            this.textBox7.TabIndex = 56;
-            // 
-            // label28
-            // 
-            this.label28.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(2, 198);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(113, 24);
-            this.label28.TabIndex = 55;
-            this.label28.Text = "Descrição";
-            // 
-            // textBox8
-            // 
-            this.textBox8.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox8.Location = new System.Drawing.Point(10, 220);
-            this.textBox8.Multiline = true;
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(372, 92);
-            this.textBox8.TabIndex = 58;
-            // 
-            // label29
-            // 
-            this.label29.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(6, 183);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(113, 24);
-            this.label29.TabIndex = 57;
-            this.label29.Text = "Descrição";
+            this.textBox19.Location = new System.Drawing.Point(335, 68);
+            this.textBox19.Name = "textBox19";
+            this.textBox19.Size = new System.Drawing.Size(47, 33);
+            this.textBox19.TabIndex = 59;
+            this.textBox19.Visible = false;
             // 
             // Home
             // 
@@ -1161,5 +1172,6 @@
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.TextBox textBox19;
     }
 }
