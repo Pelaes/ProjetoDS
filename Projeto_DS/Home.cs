@@ -285,5 +285,28 @@ namespace UI_ProjetoDS
             }
 
         }
+
+        private void textBox27_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Enter)
+            {
+                try
+                {
+                    string codBarras = textBox27.Text;
+                    ProdutoDTO obj;
+                    obj = VendaBLL.BuscarProduto(codBarras);
+                    textBox25.Text = obj.NomeProd;
+                    textBox26.Text = obj.PrecoProd;
+                    textBox28.Text = obj.UnidadeProd + " " + obj.TipoUnidProd;
+                    textBox24.Focus();
+
+                }      
+                catch(Exception ex)
+                {
+                    MessageBox.Show(ex.Message, "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
     }
 }

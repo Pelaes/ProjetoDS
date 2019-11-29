@@ -41,6 +41,7 @@
             this.radioButton6 = new System.Windows.Forms.RadioButton();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.textBox19 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.radioButton8 = new System.Windows.Forms.RadioButton();
             this.label29 = new System.Windows.Forms.Label();
@@ -113,8 +114,39 @@
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.textBox23 = new System.Windows.Forms.TextBox();
+            this.radioButton10 = new System.Windows.Forms.RadioButton();
+            this.radioButton11 = new System.Windows.Forms.RadioButton();
+            this.radioButton12 = new System.Windows.Forms.RadioButton();
+            this.label31 = new System.Windows.Forms.Label();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.textBox25 = new System.Windows.Forms.TextBox();
+            this.textBox26 = new System.Windows.Forms.TextBox();
+            this.textBox27 = new System.Windows.Forms.TextBox();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.textBox24 = new System.Windows.Forms.TextBox();
+            this.label34 = new System.Windows.Forms.Label();
+            this.textBox28 = new System.Windows.Forms.TextBox();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.textBox29 = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -123,6 +155,8 @@
             this.groupBox1.SuspendLayout();
             this.tabPage6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -167,6 +201,31 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.textBox29);
+            this.tabPage2.Controls.Add(this.label37);
+            this.tabPage2.Controls.Add(this.textBox28);
+            this.tabPage2.Controls.Add(this.label36);
+            this.tabPage2.Controls.Add(this.textBox24);
+            this.tabPage2.Controls.Add(this.label34);
+            this.tabPage2.Controls.Add(this.pictureBox2);
+            this.tabPage2.Controls.Add(this.button6);
+            this.tabPage2.Controls.Add(this.button7);
+            this.tabPage2.Controls.Add(this.textBox20);
+            this.tabPage2.Controls.Add(this.textBox21);
+            this.tabPage2.Controls.Add(this.textBox22);
+            this.tabPage2.Controls.Add(this.label30);
+            this.tabPage2.Controls.Add(this.textBox23);
+            this.tabPage2.Controls.Add(this.radioButton10);
+            this.tabPage2.Controls.Add(this.radioButton11);
+            this.tabPage2.Controls.Add(this.radioButton12);
+            this.tabPage2.Controls.Add(this.label31);
+            this.tabPage2.Controls.Add(this.dataGridView2);
+            this.tabPage2.Controls.Add(this.textBox25);
+            this.tabPage2.Controls.Add(this.textBox26);
+            this.tabPage2.Controls.Add(this.textBox27);
+            this.tabPage2.Controls.Add(this.label32);
+            this.tabPage2.Controls.Add(this.label33);
+            this.tabPage2.Controls.Add(this.label35);
             this.tabPage2.Location = new System.Drawing.Point(4, 33);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -298,6 +357,14 @@
             this.groupBox3.TabIndex = 49;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Alterar Itens";
+            // 
+            // textBox19
+            // 
+            this.textBox19.Location = new System.Drawing.Point(335, 68);
+            this.textBox19.Name = "textBox19";
+            this.textBox19.Size = new System.Drawing.Size(47, 33);
+            this.textBox19.TabIndex = 59;
+            this.textBox19.Visible = false;
             // 
             // textBox8
             // 
@@ -1047,13 +1114,299 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Nome";
             // 
-            // textBox19
+            // pictureBox2
             // 
-            this.textBox19.Location = new System.Drawing.Point(335, 68);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(47, 33);
-            this.textBox19.TabIndex = 59;
-            this.textBox19.Visible = false;
+            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(10, 426);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(230, 94);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 44;
+            this.pictureBox2.TabStop = false;
+            // 
+            // button6
+            // 
+            this.button6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button6.Location = new System.Drawing.Point(759, 396);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(196, 53);
+            this.button6.TabIndex = 43;
+            this.button6.Text = "Cancelar Venda";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button7.Location = new System.Drawing.Point(759, 467);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(196, 53);
+            this.button7.TabIndex = 42;
+            this.button7.Text = "Finalizar Venda";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // textBox20
+            // 
+            this.textBox20.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox20.Enabled = false;
+            this.textBox20.Location = new System.Drawing.Point(410, 487);
+            this.textBox20.Name = "textBox20";
+            this.textBox20.Size = new System.Drawing.Size(329, 33);
+            this.textBox20.TabIndex = 41;
+            // 
+            // textBox21
+            // 
+            this.textBox21.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox21.Enabled = false;
+            this.textBox21.Location = new System.Drawing.Point(410, 442);
+            this.textBox21.Name = "textBox21";
+            this.textBox21.Size = new System.Drawing.Size(329, 33);
+            this.textBox21.TabIndex = 40;
+            // 
+            // textBox22
+            // 
+            this.textBox22.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox22.Enabled = false;
+            this.textBox22.Location = new System.Drawing.Point(639, 396);
+            this.textBox22.Name = "textBox22";
+            this.textBox22.Size = new System.Drawing.Size(100, 33);
+            this.textBox22.TabIndex = 39;
+            // 
+            // label30
+            // 
+            this.label30.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(541, 399);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(66, 24);
+            this.label30.TabIndex = 38;
+            this.label30.Text = "Troco";
+            // 
+            // textBox23
+            // 
+            this.textBox23.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox23.Enabled = false;
+            this.textBox23.Location = new System.Drawing.Point(410, 396);
+            this.textBox23.Name = "textBox23";
+            this.textBox23.Size = new System.Drawing.Size(100, 33);
+            this.textBox23.TabIndex = 37;
+            // 
+            // radioButton10
+            // 
+            this.radioButton10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.radioButton10.AutoSize = true;
+            this.radioButton10.Location = new System.Drawing.Point(261, 445);
+            this.radioButton10.Name = "radioButton10";
+            this.radioButton10.Size = new System.Drawing.Size(96, 28);
+            this.radioButton10.TabIndex = 36;
+            this.radioButton10.TabStop = true;
+            this.radioButton10.Text = "Débito";
+            this.radioButton10.UseVisualStyleBackColor = true;
+            // 
+            // radioButton11
+            // 
+            this.radioButton11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.radioButton11.AutoSize = true;
+            this.radioButton11.Location = new System.Drawing.Point(261, 492);
+            this.radioButton11.Name = "radioButton11";
+            this.radioButton11.Size = new System.Drawing.Size(103, 28);
+            this.radioButton11.TabIndex = 35;
+            this.radioButton11.TabStop = true;
+            this.radioButton11.Text = "Crédito";
+            this.radioButton11.UseVisualStyleBackColor = true;
+            // 
+            // radioButton12
+            // 
+            this.radioButton12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.radioButton12.AutoSize = true;
+            this.radioButton12.Location = new System.Drawing.Point(261, 397);
+            this.radioButton12.Name = "radioButton12";
+            this.radioButton12.Size = new System.Drawing.Size(110, 28);
+            this.radioButton12.TabIndex = 34;
+            this.radioButton12.TabStop = true;
+            this.radioButton12.Text = "Dinheiro";
+            this.radioButton12.UseVisualStyleBackColor = true;
+            // 
+            // label31
+            // 
+            this.label31.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(6, 397);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(238, 24);
+            this.label31.TabIndex = 33;
+            this.label31.Text = "Forma de Pagamento";
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.AllowUserToAddRows = false;
+            this.dataGridView2.AllowUserToDeleteRows = false;
+            this.dataGridView2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3,
+            this.Column4,
+            this.Column5,
+            this.Column6});
+            this.dataGridView2.Location = new System.Drawing.Point(6, 111);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.ReadOnly = true;
+            this.dataGridView2.Size = new System.Drawing.Size(943, 236);
+            this.dataGridView2.TabIndex = 32;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Ordem";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Cód";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            // 
+            // Column3
+            // 
+            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column3.HeaderText = "Nome";
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Unitário";
+            this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "Qtd X Preço";
+            this.Column5.Name = "Column5";
+            this.Column5.ReadOnly = true;
+            this.Column5.Width = 158;
+            // 
+            // Column6
+            // 
+            this.Column6.HeaderText = "Total";
+            this.Column6.Name = "Column6";
+            this.Column6.ReadOnly = true;
+            // 
+            // textBox25
+            // 
+            this.textBox25.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox25.Location = new System.Drawing.Point(184, 61);
+            this.textBox25.Name = "textBox25";
+            this.textBox25.ReadOnly = true;
+            this.textBox25.Size = new System.Drawing.Size(361, 33);
+            this.textBox25.TabIndex = 30;
+            // 
+            // textBox26
+            // 
+            this.textBox26.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox26.Location = new System.Drawing.Point(560, 61);
+            this.textBox26.Name = "textBox26";
+            this.textBox26.ReadOnly = true;
+            this.textBox26.Size = new System.Drawing.Size(115, 33);
+            this.textBox26.TabIndex = 29;
+            // 
+            // textBox27
+            // 
+            this.textBox27.Location = new System.Drawing.Point(6, 61);
+            this.textBox27.Name = "textBox27";
+            this.textBox27.Size = new System.Drawing.Size(162, 33);
+            this.textBox27.TabIndex = 28;
+            this.textBox27.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox27_KeyDown);
+            // 
+            // label32
+            // 
+            this.label32.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(556, 21);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(70, 24);
+            this.label32.TabIndex = 27;
+            this.label32.Text = "Preço";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(180, 21);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(90, 24);
+            this.label33.TabIndex = 26;
+            this.label33.Text = "Produto";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(2, 21);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(86, 24);
+            this.label35.TabIndex = 24;
+            this.label35.Text = "Código";
+            // 
+            // textBox24
+            // 
+            this.textBox24.Location = new System.Drawing.Point(828, 61);
+            this.textBox24.Name = "textBox24";
+            this.textBox24.Size = new System.Drawing.Size(121, 33);
+            this.textBox24.TabIndex = 46;
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(821, 21);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(134, 24);
+            this.label34.TabIndex = 45;
+            this.label34.Text = "Quantidade";
+            // 
+            // textBox28
+            // 
+            this.textBox28.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox28.Location = new System.Drawing.Point(692, 61);
+            this.textBox28.Name = "textBox28";
+            this.textBox28.ReadOnly = true;
+            this.textBox28.Size = new System.Drawing.Size(117, 33);
+            this.textBox28.TabIndex = 48;
+            // 
+            // label36
+            // 
+            this.label36.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(688, 21);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(95, 24);
+            this.label36.TabIndex = 47;
+            this.label36.Text = "Unidade";
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Location = new System.Drawing.Point(6, 357);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(174, 24);
+            this.label37.TabIndex = 49;
+            this.label37.Text = "TOTAL A PAGAR:";
+            // 
+            // textBox29
+            // 
+            this.textBox29.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox29.Location = new System.Drawing.Point(186, 354);
+            this.textBox29.Name = "textBox29";
+            this.textBox29.ReadOnly = true;
+            this.textBox29.Size = new System.Drawing.Size(139, 33);
+            this.textBox29.TabIndex = 50;
             // 
             // Home
             // 
@@ -1068,6 +1421,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home";
             this.tabControl1.ResumeLayout(false);
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
             this.groupBox3.ResumeLayout(false);
@@ -1081,6 +1436,8 @@
             this.groupBox1.PerformLayout();
             this.tabPage6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1173,5 +1530,36 @@
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.TextBox textBox19;
+        private System.Windows.Forms.TextBox textBox29;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.TextBox textBox28;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.TextBox textBox24;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.TextBox textBox20;
+        private System.Windows.Forms.TextBox textBox21;
+        private System.Windows.Forms.TextBox textBox22;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.TextBox textBox23;
+        private System.Windows.Forms.RadioButton radioButton10;
+        private System.Windows.Forms.RadioButton radioButton11;
+        private System.Windows.Forms.RadioButton radioButton12;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.TextBox textBox25;
+        private System.Windows.Forms.TextBox textBox26;
+        private System.Windows.Forms.TextBox textBox27;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.Label label35;
     }
 }
